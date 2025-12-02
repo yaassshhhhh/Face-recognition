@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form action="/action">
+        <div>
+            <label for="username">Username : </label>
+            <input type="text" placeholder="Enter username" id="username" name="user"/>
+        </div>
+        <div>
+            <label for="password">Password : </label>
+            <input type="password" placeholder="Enter password" id="password" name="passs"/>
+        </div>
+        <div>
+            <label for="age">Age : </label>
+            <input type="number" placeholder="Enter age" id="age" name="age"/>
+        </div>
+        <button type="submit">submit</button>   
+        <!-- <button type="button">button</button> -->
+         <!-- <button type="reset">Reset the form</button> -->
+            <div>
+                <input type="checkbox" id="age" value="age" />
+                <label for="age">I am 18+</label>
+                <button>Submit</button>
+            </div>
+            <div>
+                <select name="profession" id="profession">
+                    <option value="stu">Student</option>
+                    <option value="dev">Developer</option>
+                </select>
+            </div>
+            <div>
+            <label for="vol">Select your volume level :</label>
+            <input type="range" id="vol" min="0" max="100" name="vol" step="10"/>
+            <button>Submit</button>
+            </div>
+        
+                <label for="feedback">Please give your valuable feedback</label>
+                <textarea id="feedback" name="feedback" placeholder="Enter your valuable feedback !"></textarea>
+           
+    </form>
+</body>
+</html>
